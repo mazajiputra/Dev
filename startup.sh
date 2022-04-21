@@ -1,5 +1,5 @@
 #!/bin/bash
-if [[ -d "home/pi/Dev/Master0Aman" ]]
+if [[ -d "/home/pi/Dev/Master0Aman" ]]
 then
 #echo "Ya ini ada" #ls -al |grep
     echo 'Direktori "dev" sudah siap'
