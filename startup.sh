@@ -1,8 +1,8 @@
 #!/bin/bash
-if [[ -d "home/pi/Dev" ]]
+if [[ -d "home/pi/Dev/Master0Aman" ]]
 then
 #echo "Ya ini ada" #ls -al |grep
-    echo 'Direktori "dev" sudah ada'
+    echo 'Direktori "dev" sudah siap'
     echo 'Apakah perlu melakukan refresh file(ya/tidak)'
     read balas
     if [ $balas == "ya" ];
@@ -21,7 +21,7 @@ then
     fi
   
 else
-    echo 'Direktori "dev" tidak ada'
+    echo 'Direktori "dev" tidak siap'
     echo 'direktori "dev" akan diclone'
-    echo "git clone https://github.com/mazajiputra/Master01.git"
+    git clone https://github.com/mazajiputra/Master01.git
 fi
